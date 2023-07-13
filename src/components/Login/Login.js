@@ -146,8 +146,13 @@ const Login = () => {
           </Grid>
           <div className={styles.buttons}>
             <div>
-              {/* <button className={styles.submitBtn}> { isSignup ? 'Sign Up' : 'Sign In' }</button> */}
-              {/* <ProgressButton>{ isSignup ? 'Sign Up' : 'Sign In' }</ProgressButton> */}
+              <button className={styles.submitBtn}>
+                {" "}
+                {isSignup ? "Sign Up" : "Sign In"}
+              </button>
+              <ProgressButton>
+                {isSignup ? "Sign Up" : "Sign In"}
+              </ProgressButton>
               {loading ? (
                 <CircularProgress />
               ) : (
