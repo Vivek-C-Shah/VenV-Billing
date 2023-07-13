@@ -19,6 +19,7 @@ import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import { createProfile } from "../../actions/profile";
 import { useSnackbar } from "react-simple-snackbar";
 import CircularProgress from "@material-ui/core/CircularProgress";
+import ProgressButton from "../ProgressButton/ProgressButton";
 
 const initialState = {
   firstName: "",
