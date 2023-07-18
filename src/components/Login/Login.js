@@ -146,10 +146,6 @@ const Login = () => {
           </Grid>
           <div className={styles.buttons}>
             <div>
-              <button className={styles.submitBtn}>
-                {" "}
-                {isSignup ? "Sign Up" : "Sign In"}
-              </button>
               {loading ? (
                 <CircularProgress />
               ) : (
